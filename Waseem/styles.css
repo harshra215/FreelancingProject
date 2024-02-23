@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.mainSection {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageHighlights {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 75%;
+  padding: 70px 20px;
+  border-radius: 25px;
+  box-shadow: 5px 7px 7px rgba(167, 165, 165, 0.799);
+  background-color: #e76f00;
+}
+
+.image {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.image img {
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.imageTextWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  user-select: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+  color: white;
+}
+
+.text h3 {
+  font-weight: bold;
+}
+
+hr {
+  font-weight: bolder;
+}
+
+.assignments {
+  height: auto;
+  padding: 10px 5px;
+  width: 75%;
+  margin-top: 80px;
+  border-radius: 25px;
+  box-shadow: 5px 7px 7px rgba(167, 165, 165, 0.799);
+  background: linear-gradient(180deg, #f88214, #e19b5a, white);
+}
+
+.assignments center h1 {
+  margin-bottom: 40px;
+  font-weight: 650;
+  padding-top: 15px;
+  user-select: none;
+}
+
+.cardDiv {
+  padding-left: 310px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  user-select: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scroll-margin-top: 200px;
+}
+
+.cardDiv::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Position the scroll buttons */
+button#scrollLeftButton,
+button#scrollRightButton {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Position the left scroll button */
+button#scrollLeftButton {
+  left: 12px;
+  top: 185px;
+}
+
+/* Position the right scroll button */
+button#scrollRightButton {
+  right: -1095px;
+  bottom: 175px;
+}
+
+.card {
+  height: auto;
+  padding-bottom: 25px;
+  min-width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 7px rgba(44, 40, 40, 0.799);
+  background-color: #e76f00;
+}
+
+.assignmentImageTextWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 5px;
+}
+
+.assignmentIcon {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.assignmentIcon img {
+  height: 55px;
+  border-radius: 50%;
+}
+
+.assignmentUnderLine {
+  margin: auto;
+  width: 75%;
+  height: 2px;
+  background-color: white;
+  border-radius: 35px;
+}
+
+.assignmentCardBottomContent {
+  text-align: justify;
+  padding-left: 31px;
+  color: white;
+}
+
+.assignmentCardBottomContent h4 {
+  font-weight: bold;
+  padding: 15px 0 27px 0;
+}
+
+.assignmentCardBottomContent p {
+  padding: 0 4px 19px 0;
+}
+
+.assignmentCardBottomContent button {
+  padding: 8px 30px;
+  border-radius: 8px;
+  background-color: #442101;
+  color: white;
+  border: none;
+  text-align: center;
+  box-shadow: 4px 3px 5px rgba(44, 40, 40, 0.799);
+}
+
+.assignmentCardBottomContent button:hover {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .pageHighlights {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 0 10px 0 10px;
+  }
+  .imageTextWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 105px; */
+  }
+  /* .money{
+  margin-bottom: 16px;
+  } */
+  hr {
+    display: none;
+  }
+  .earnLearn {
+    margin-bottom: 15px;
+  }
+  .assignments {
+    width: 90%;
+  }
+  .card {
+    height: 270px;
+    width: 70px;
+  }
+  button#scrollLeftButton,
+  button#scrollRightButton {
+    display: none;
+  }
+.assignments center h1{
+  font-size: 25px;
+}
+}
