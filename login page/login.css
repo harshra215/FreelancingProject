@@ -1,0 +1,341 @@
+* {
+  margin: 1px;
+  padding: auto;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-one {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  justify-content: end;
+}
+.login-pic {
+  padding: 16em;
+  margin-bottom: 1em;
+}
+.box-two-main {
+  padding: 0em 2em 2em 2em;
+  margin-right: 1em;
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  justify-content: start;
+}
+.box-two {
+  background-image: linear-gradient(
+    rgba(255, 150, 24, 100),
+    rgba(255, 150, 24, 0)
+  );
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  height: 90vh;
+  width: 38vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.box-two-up {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+.box-two-up h2{
+    font-weight: 500;
+}
+.box-two-up div {
+  font-size: x-large;
+  font-weight: bold;
+}
+.box-two-up div span {
+  color: rgba(204, 85, 0, 100);
+}
+.sign-in-buttons{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+.button-17 {
+  width: 30vw;
+  height: 6vh;
+  margin: 1em;
+  align-items: center;
+  appearance: none;
+  background-color: #fffdfd;
+  border-radius:1em;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3a3b3b;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #e7e8e9;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+.button-17 img{
+    padding: 2em;
+}
+.box-two-middle{
+    margin: 1em;
+    display: flex;
+}
+.box-two-middle div{
+    margin-top: 12px;
+    height: 1em;
+    width:15vw;
+    border-style:solid ;
+    border-color: #000000;
+    border-width: 2px 0px 0px 0px;
+}
+.box-two-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+}
+.box-two-input img{
+    height: 3em;
+    padding-left: 3.2em;
+}
+#eye{
+  padding-left: 2.5em;
+  transform: scale(0.77);
+}
+.box-two-input div input{
+    background-color: #ddd9d9;
+    border:none;
+    width:16vw;
+    height: 2em;
+    border-radius: 0.5em;
+    padding-left: 0.75em;
+}
+.box-two-input{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    height: 8vh;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: #ECECEC;
+    border:none;
+}
+.box-two-input div input:focus{
+    background-color: #ebe7e7;
+    border: none;
+}
+.box-two-down div input:hover{
+    background-color: #e0dcdc;
+    border: none;
+}
+.box-two-input div{
+    margin-left: 2em;
+}
+input[type=email] {
+  font-size: large;
+  font-weight: 700;
+}
+input[type=password] {
+  font-size: large;
+  font-weight: 700;
+}
+.box-two-bottom{
+  display: flex;
+  width:30vw; ;
+  height: 5em;
+  justify-content: space-between;
+}
+.box-two-bottom div{
+  height: 2em;
+  font-size: large;
+  padding: 1em;
+}
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+.box-two-bottom div label{
+  padding-left: 1em;
+}
+.box-two-bottom div a{
+  color: #B07216;
+  margin: 1em;
+}
+.box-two-down button{
+  width: 26vw;
+  height: 3em;
+  border-radius: 0.75em;
+  border: none;
+  background-color:#CC5500;
+  color: #ffffff;
+  font-size: x-large;
+}
+.box-two-down button:hover{
+  background-color: #e4640a;
+  color: #ddd9d9;
+  border: 5px solid #CC5500;
+  box-shadow: 5px 5px 15px #883b04;
+}
+.join-last{
+  padding: 1em;
+  font-size: large;
+}
+.join-last a{
+  color: #FF9618;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .main{
+    flex-direction: column-reverse;
+  }
+  .login-pic {
+    transform: scale(0.2);
+    align-self: flex-end;
+    padding-left:4em;
+  }
+  .box-two-main{
+    height:0.1em;
+    width: 98vw;
+    padding-left: 2.5em;
+    padding-top: 3em;
+    justify-content: center;
+  }
+  .box-two{
+    width: 90vw;
+  }
+  .button-17 {
+    width: 69vw;
+    height: 8vh;
+    margin: 0.6em;
+    font-size:small;
+  }
+  .box-two-middle div{
+    width:40vw;
+  }
+  .box-two-input{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 8vh;
+    margin: 1em;
+    border-radius: 0.75em;
+    background-color: #ECECEC;
+    border:none;
+  }
+  .box-two-input div{
+    margin-left: 0em;
+  }
+  input[type=email] {
+  font-size: small ;
+  }
+  input[type=password] {
+  font-size: small;
+  }
+  .box-two-input img{
+    height: 2em;
+    padding-left: 1em;
+  }
+  .box-two-input div input{
+    background-color: #ddd9d9;
+    border:none;
+    width:44vw;
+    height: 2em;
+    border-radius: 0.5em;
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  .box-two-bottom{
+    display: flex;
+    width:30vw; ;
+    height: 5em;
+    justify-content:end;
+    padding-left: 8em;
+  }
+  .box-two-bottom div{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-size: smaller;
+  }
+  input[type=checkbox] {
+    transform: scale(1.2);
+  }
+  .box-two-bottom div label{
+    padding-left: 1em;
+  }
+  .box-two-bottom div a{
+    color: #B07216;
+    margin: 1em;
+  }
+  .box-two-down button{
+    width: 44vw;
+    height: 3em;
+    font-size: large;
+  }
+  .join-last{
+    font-size: small;
+  
+
+}
+
+@media only screen and (max-width: 400px){
+  .box-two-main{
+    padding-left: 4.4em;
+  }
+  .box-two-main{
+    height:0.1em;
+    width: 100vw;
+    padding-left: 5.4em;
+    padding-top: 3em;
+    justify-content: center;
+  }
+  .box-two{
+    width: 100vw;
+  }
+  .box-two-input{
+    height: 9.3vh;
+  }
+}
