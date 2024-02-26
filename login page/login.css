@@ -55,9 +55,10 @@
 .box-two-up div {
   font-size: x-large;
   font-weight: bold;
+  color: rgba(204, 85, 0, 100);
 }
 .box-two-up div span {
-  color: rgba(204, 85, 0, 100);
+  color: rgba(0, 0, 0, 100);
 }
 .sign-in-buttons{
     padding-top: 1em;
